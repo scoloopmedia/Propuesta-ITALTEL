@@ -37,7 +37,6 @@
     <!-- HEADER -->
     <header class="bg-loop-dark w-full px-8 py-5 flex justify-between items-center sticky top-0 z-50 shadow-md">
         <div class="flex items-center">
-            <!-- Recuerda colocar la imagen en la misma carpeta o actualizar la ruta -->
             <img src="LoopDevLogo.png" alt="Loop Development" class="h-10 object-contain" onerror="this.onerror=null; this.src='https://via.placeholder.com/150x50/141B38/ffffff?text=Loop+Dev';">
         </div>
         <nav class="hidden md:flex space-x-6 text-white text-sm font-medium">
@@ -50,11 +49,9 @@
 
     <!-- HERO SECTION -->
     <section class="flex flex-col md:flex-row min-h-[70vh]">
-        <!-- Left -->
         <div class="md:w-1/2 bg-white flex justify-center items-center p-12" data-aos="fade-right" data-aos-duration="1000">
             <img src="ITALTEL Logo.svg" alt="ITALTEL Logo" class="max-w-[80%] h-auto object-contain" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x150/ffffff/000000?text=ITALTEL+LOGO';">
         </div>
-        <!-- Right -->
         <div class="md:w-1/2 flex flex-col justify-center items-start text-left p-12 bg-gray-50" data-aos="fade-left" data-aos-duration="1000">
             <h1 class="text-4xl md:text-5xl font-semibold text-black mb-4">Propuesta ITALTEL:</h1>
             <p class="text-xl md:text-2xl font-normal text-gray-700">Desarrollo & Mantenimiento de Software ADIF</p>
@@ -66,12 +63,10 @@
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl font-semibold text-white mb-12 text-center" data-aos="fade-up">Alcance de proyecto</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Card Left -->
                 <div class="bg-white p-10 rounded-2xl transform transition-all duration-300 hover:-translate-y-2 lux-shadow" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="text-2xl font-semibold text-black mb-4">Desarrollo de Software</h3>
                     <p class="text-gray-600 font-normal leading-relaxed">Auditoría exhaustiva del código y desarrollo para consolidar el producto actual.</p>
                 </div>
-                <!-- Card Right -->
                 <div class="bg-white p-10 rounded-2xl transform transition-all duration-300 hover:-translate-y-2 lux-shadow" data-aos="fade-up" data-aos-delay="200">
                     <h3 class="text-2xl font-semibold text-black mb-4">Despliegue & Mantenimiento</h3>
                     <p class="text-gray-600 font-normal leading-relaxed">Despliegue en producción final y mantenimiento del software durante dos años para mitigar caídas o posibles bugs.</p>
@@ -85,85 +80,66 @@
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-16" data-aos="fade-up">
                 <h2 class="text-3xl font-semibold text-black mb-4">Desarrollo de Software</h2>
-                <p class="text-gray-600 max-w-3xl mx-auto">Consolidación del entorno beta actual. Revisión íntegra de la base de código, adaptación de la lógica de coincidencia (match) y aseguramiento de estándares técnicos y de seguridad pliego ADIF. Sin inclusión de nuevas funcionalidades.</p>
+                <p class="text-gray-600 max-w-3xl mx-auto">Consolidación del entorno beta actual. Revisión íntegra de la base de código, adaptación de la lógica de coincidencia (match) y aseguramiento de estándares técnicos y de seguridad pliego ADIF.</p>
             </div>
 
-            <!-- 3x3 Grid Cards -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-                
                 <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up">
                     <h4 class="font-semibold text-lg text-black mb-2">1. Autenticación segura</h4>
                     <p class="text-sm text-gray-600">Autoría y securización del flujo de autenticación.</p>
                 </div>
-
-                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up" data-aos-delay="50">
+                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up">
                     <h4 class="font-semibold text-lg text-black mb-2">2. Perfil/Pantalla Usuario</h4>
-                    <p class="text-sm text-gray-600">Comprobación y validación de todos los flujos de usuario según los requisitos del pliego.</p>
+                    <p class="text-sm text-gray-600">Comprobación y validación de todos los flujos según requisitos del pliego.</p>
                 </div>
-
-                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up">
                     <h4 class="font-semibold text-lg text-black mb-2">3. Perfil Estación</h4>
-                    <p class="text-sm text-gray-600">Comprobación de flujos (visibilidad restringida a estación propia) según pliego.</p>
+                    <p class="text-sm text-gray-600">Restricción de visibilidad a estación propia según pliego.</p>
                 </div>
-
                 <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up">
                     <h4 class="font-semibold text-lg text-black mb-2">4. Perfil Central</h4>
-                    <p class="text-sm text-gray-600">Comprobación de flujos (visibilidad total de estaciones de España) según pliego.</p>
+                    <p class="text-sm text-gray-600">Visibilidad total de estaciones de España según pliego.</p>
                 </div>
-
-                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up" data-aos-delay="50">
+                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up">
                     <h4 class="font-semibold text-lg text-black mb-2">5. Lógica Matches</h4>
-                    <p class="text-sm text-gray-600">Migración de algoritmo determinista a ML embeddings (vectores). Aumenta robustez ante diferencias semánticas (ej. negro -> oscuro, sinónimos) y errores humanos (ortografía, tildes).</p>
+                    <p class="text-sm text-gray-600">Migración a ML embeddings (vectores) para robustez semántica y corrección de errores humanos.</p>
                 </div>
-
-                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up">
                     <h4 class="font-semibold text-lg text-black mb-2">6. Lógica Tickets / Mensajería</h4>
-                    <p class="text-sm text-gray-600">Repaso de lógica de mensajería. Adición de notificaciones SMTP: "Tienes un mensaje nuevo en tu buzón de objetos perdidos".</p>
+                    <p class="text-sm text-gray-600">Repaso de lógica y adición de notificaciones SMTP para avisos de buzón.</p>
                 </div>
-
                 <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up">
                     <h4 class="font-semibold text-lg text-black mb-2">7. BBDD</h4>
-                    <p class="text-sm text-gray-600">Auditoría de seguridad y adaptación estructural al nuevo sistema de matches vectoriales.</p>
+                    <p class="text-sm text-gray-600">Auditoría de seguridad y adaptación al nuevo sistema de matches.</p>
                 </div>
-
-                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up" data-aos-delay="50">
+                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up">
                     <h4 class="font-semibold text-lg text-black mb-2">8. Migración de Datos</h4>
-                    <p class="text-sm text-gray-600">Adaptación, mapeo y volcado de los esquemas antiguos de la plataforma previa a los nuevos esquemas de base de datos.</p>
+                    <p class="text-sm text-gray-600">Adaptación de antiguos esquemas a nuevos esquemas de base de datos.</p>
                 </div>
-
-                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <div class="bg-gray-50 border border-gray-100 p-8 rounded-xl transition-all duration-300 hover:shadow-lg" data-aos="fade-up">
                     <h4 class="font-semibold text-lg text-black mb-2">9. Hosting & Optimización</h4>
-                    <p class="text-sm text-gray-600">Configuración de hosting y entorno de despliegue. Auditoría de responsive design móvil, con pruebas de velocidad, carga y rendimiento.</p>
+                    <p class="text-sm text-gray-600">Configuración de entorno, optimización móvil y pruebas de rendimiento.</p>
                 </div>
             </div>
 
-            <!-- Stack & Security Full-width Card -->
             <div class="w-full bg-loop-dark text-white p-10 rounded-2xl shadow-xl flex flex-col md:flex-row gap-8" data-aos="fade-up">
                 <div class="md:w-1/3">
                     <h3 class="text-2xl font-semibold mb-4">Auditoría de Stack & Seguridad</h3>
-                    <p class="text-gray-300 text-sm leading-relaxed mb-4">
-                        Repaso de seguridad y ejecución de cambios necesarios en infraestructura para garantizar un entorno de producción correcto, estable y seguro.
-                    </p>
+                    <p class="text-gray-300 text-sm leading-relaxed mb-4">Repaso de seguridad y ejecución de cambios para garantizar un entorno correcto y seguro.</p>
                 </div>
                 <div class="md:w-1/3">
                     <h4 class="font-semibold text-lg mb-3 border-b border-gray-600 pb-2">Stack Actual</h4>
-                    <ul class="text-sm text-gray-300 space-y-2">
-                        <li>• PostgreSQL 16</li>
-                        <li>• FastAPI (Python 3.11)</li>
+                    <ul class="text-sm text-gray-300 space-y-2 font-light">
+                        <li>• PostgreSQL 16 | FastAPI (Python 3.11)</li>
                         <li>• HTMX + Alpine.js + Tailwind CSS</li>
-                        <li>• Nginx reverse proxy con SSL</li>
-                        <li>• MinIO (S3-compatible) para imágenes</li>
-                        <li>• MailHog (SMTP testing)</li>
-                        <li>• Docker Compose (6 servicios)</li>
+                        <li>• Nginx | MinIO | Docker Compose</li>
                     </ul>
                 </div>
                 <div class="md:w-1/3">
                     <h4 class="font-semibold text-lg mb-3 border-b border-gray-600 pb-2">Infraestructura VPS</h4>
-                    <ul class="text-sm text-gray-300 space-y-2">
-                        <li>• Proveedor: Arsys</li>
-                        <li>• Ubicación: Madrid, España</li>
-                        <li>• Hardware: 4 vCPU / 8GB RAM / 240GB</li>
-                        <li>• OS: Ubuntu 24</li>
+                    <ul class="text-sm text-gray-300 space-y-2 font-light">
+                        <li>• Arsys, Madrid | Ubuntu 24</li>
+                        <li>• 4 vCPU / 8GB RAM / 240GB</li>
                     </ul>
                 </div>
             </div>
@@ -172,72 +148,80 @@
 
     <!-- 3. TIMELINE -->
     <section id="timeline" class="py-24 px-6 md:px-16 bg-gray-50 border-t border-gray-200">
-        <div class="max-w-5xl mx-auto">
+        <div class="max-w-4xl mx-auto relative">
             <h2 class="text-3xl font-semibold text-black mb-16 text-center" data-aos="fade-up">Timeline de Ejecución</h2>
             
-            <div class="relative wrap overflow-hidden p-4 h-full" data-aos="fade-up" data-aos-delay="100">
-                <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%;"></div>
+            <div class="relative" data-aos="fade-up">
+                <!-- Línea central (escritorio) / lateral (móvil) -->
+                <div class="absolute left-3 md:left-1/2 transform md:-translate-x-1/2 h-full border-l-2 border-gray-300 z-0"></div>
                 
                 <!-- Timeline Item 1 -->
-                <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div class="order-1 w-5/12"></div>
-                    <div class="z-20 flex items-center order-1 bg-loop-dark shadow-xl w-6 h-6 rounded-full"></div>
-                    <div class="order-1 bg-white rounded-xl shadow-md w-5/12 px-6 py-4">
-                        <h3 class="font-bold text-gray-800 text-lg">Desarrollo de Software</h3>
-                        <p class="text-sm text-gray-600 mt-1">3 - 4 Meses</p>
+                <div class="relative flex items-center justify-between w-full mb-10">
+                    <!-- Punto -->
+                    <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 flex items-center justify-center w-6 h-6 rounded-full bg-loop-dark z-10 ring-4 ring-gray-50"></div>
+                    <!-- Card Right -->
+                    <div class="w-full pl-10 md:pl-0 md:w-5/12 md:ml-auto">
+                        <div class="bg-white p-5 md:p-6 rounded-xl shadow-md transition-shadow hover:shadow-lg">
+                            <h3 class="font-bold text-gray-800 text-base md:text-lg">Desarrollo de Software</h3>
+                            <p class="text-sm text-gray-600 mt-1">3 - 4 Meses</p>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Timeline Item 2 -->
-                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div class="order-1 w-5/12"></div>
-                    <div class="z-20 flex items-center order-1 bg-black shadow-xl w-6 h-6 rounded-full"></div>
-                    <div class="order-1 bg-white rounded-xl shadow-md w-5/12 px-6 py-4 text-right">
-                        <h3 class="font-bold text-gray-800 text-lg">Mantenimiento</h3>
-                        <p class="text-sm text-gray-600 mt-1">2 Años *</p>
-                        <p class="text-xs text-gray-400 mt-2 italic">* Desde la puesta en marcha oficial.</p>
+                <div class="relative flex items-center justify-between w-full mb-8">
+                    <!-- Punto -->
+                    <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 flex items-center justify-center w-6 h-6 rounded-full bg-black z-10 ring-4 ring-gray-50"></div>
+                    <!-- Card Left (Escritorio) / Right (Móvil) -->
+                    <div class="w-full pl-10 md:pl-0 md:w-5/12 md:mr-auto md:text-right">
+                        <div class="bg-white p-5 md:p-6 rounded-xl shadow-md transition-shadow hover:shadow-lg">
+                            <h3 class="font-bold text-gray-800 text-base md:text-lg">Mantenimiento</h3>
+                            <p class="text-sm text-gray-600 mt-1">2 Años *</p>
+                            <p class="text-xs text-gray-400 mt-2 italic">* Desde la puesta en marcha oficial.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 4. PRESUPUESTO & PLAN DE PAGOS -->
+    <!-- 4. PRESUPUESTO & PLAN DE PAGOS ACTUALIZADO -->
     <section id="presupuesto" class="bg-loop-dark py-24 px-6 md:px-16 text-white">
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             
             <!-- Left: Inversión Total -->
             <div data-aos="fade-right">
                 <h2 class="text-2xl font-normal text-gray-300 mb-2">Inversión Total del Proyecto</h2>
-                <div class="text-5xl md:text-6xl font-semibold">50.000€ <span class="text-2xl font-normal text-gray-400 block mt-2 lg:inline lg:mt-0">+ IVA (21%)</span></div>
+                <div class="text-5xl md:text-6xl font-semibold">40.000€ <span class="text-2xl font-normal text-gray-400 block mt-2 lg:inline lg:mt-0">+ IVA (21%)</span></div>
+                <p class="text-gray-400 mt-6 text-sm italic">Presupuesto cerrado para desarrollo inicial y dos años de soporte preventivo.</p>
             </div>
 
-            <!-- Right: Plan de Pagos (Timeline Style) -->
-            <div class="border-l-2 border-gray-600 pl-8 space-y-10" data-aos="fade-left" data-aos-delay="100">
+            <!-- Right: Plan de Pagos -->
+            <div class="border-l-2 border-gray-600 pl-8 space-y-10" data-aos="fade-left">
                 
                 <div class="relative">
                     <div class="absolute w-3 h-3 bg-white rounded-full -left-[39px] top-2"></div>
                     <h3 class="text-xl font-semibold">Desarrollo de Software</h3>
-                    <p class="text-lg font-medium text-gray-300 mt-1">30.000€ <span class="text-sm font-normal text-gray-400">+ IVA</span></p>
-                    <p class="text-sm text-gray-400 mt-2">50% antes — 50% después</p>
+                    <p class="text-lg font-medium text-gray-300 mt-1">25.000€ <span class="text-sm font-normal text-gray-400">+ IVA</span></p>
+                    <p class="text-xs text-gray-400 mt-2 uppercase tracking-wider">Términos de Facturación:</p>
+                    <p class="text-sm text-gray-400 font-light italic">50% activación de proyecto al firmar contrato — 50% al finalizar el contrato de forma satisfactoria.</p>
                 </div>
 
                 <div class="relative">
                     <div class="absolute w-3 h-3 bg-white rounded-full -left-[39px] top-2"></div>
-                    <h3 class="text-xl font-semibold">Mantenimiento (Primer Año)</h3>
-                    <p class="text-lg font-medium text-gray-300 mt-1">10.000€ <span class="text-sm font-normal text-gray-400">+ IVA</span></p>
-                    <p class="text-sm text-gray-400 mt-2">50% antes — 50% después</p>
+                    <h3 class="text-xl font-semibold">Mantenimiento (Anualidad 1)</h3>
+                    <p class="text-lg font-medium text-gray-300 mt-1">7.500€ <span class="text-sm font-normal text-gray-400">+ IVA</span></p>
+                    <p class="text-sm text-gray-400 font-light italic leading-relaxed">50% activación de proyecto al firmar contrato — 50% al finalizar el contrato de forma satisfactoria.</p>
                 </div>
 
                 <div class="relative">
                     <div class="absolute w-3 h-3 bg-white rounded-full -left-[39px] top-2"></div>
-                    <h3 class="text-xl font-semibold">Mantenimiento (Segundo Año)</h3>
-                    <p class="text-lg font-medium text-gray-300 mt-1">10.000€ <span class="text-sm font-normal text-gray-400">+ IVA</span></p>
-                    <p class="text-sm text-gray-400 mt-2">50% antes — 50% después</p>
+                    <h3 class="text-xl font-semibold">Mantenimiento (Anualidad 2)</h3>
+                    <p class="text-lg font-medium text-gray-300 mt-1">7.500€ <span class="text-sm font-normal text-gray-400">+ IVA</span></p>
+                    <p class="text-sm text-gray-400 font-light italic leading-relaxed">50% activación de proyecto al firmar contrato — 50% al finalizar el contrato de forma satisfactoria.</p>
                 </div>
 
             </div>
-
         </div>
     </section>
 
@@ -246,50 +230,28 @@
         <div class="max-w-4xl mx-auto bg-gray-50 border border-gray-200 rounded-2xl p-10" data-aos="fade-up">
             <h3 class="text-xl font-semibold text-black mb-6">Aclaraciones y Condiciones (Disclaimers)</h3>
             <ul class="space-y-4 text-gray-700 text-sm md:text-base">
-                <li class="flex items-start">
-                    <span class="mr-3 text-loop-dark font-bold">•</span>
-                    Si la propuesta encaja, formalizaremos los acuerdos mediante un contrato formal.
-                </li>
-                <li class="flex items-start">
-                    <span class="mr-3 text-loop-dark font-bold">•</span>
-                    No nos hacemos cargo de costes de proveedores de terceros necesarios para poner en producción el software (costes de hosting, tokens de IA/servicios, dominios, etc.).
-                </li>
-                <li class="flex items-start">
-                    <span class="mr-3 text-loop-dark font-bold">•</span>
-                    Migración de datos: Al realizarse sobre un software y base de datos preexistentes y desconocidos de antemano, existe un margen lógico de incertidumbre en su ejecución.
-                </li>
-                <li class="flex items-start">
-                    <span class="mr-3 text-loop-dark font-bold">•</span>
-                    Esta propuesta no contempla el desarrollo de nuevas funcionalidades fuera de lo especificado en el alcance.
-                </li>
-                <li class="flex items-start">
-                    <span class="mr-3 text-loop-dark font-bold">•</span>
-                    El foco técnico principal consistirá en auditar y asegurar las condiciones de seguridad y estabilidad del software actual.
-                </li>
+                <li class="flex items-start"><span class="mr-3 text-loop-dark font-bold">•</span>Si la propuesta encaja, formalizaremos los acuerdos mediante contrato.</li>
+                <li class="flex items-start"><span class="mr-3 text-loop-dark font-bold">•</span>No se incluyen costes de terceros (hosting, licencias).</li>
+                <li class="flex items-start"><span class="mr-3 text-loop-dark font-bold">•</span>La migración de datos implica un margen de incertidumbre técnica sobre BBDD desconocidas.</li>
+                <li class="flex items-start"><span class="mr-3 text-loop-dark font-bold">•</span>No se contemplan nuevas funcionalidades fuera del alcance detallado.</li>
+                <li class="flex items-start"><span class="mr-3 text-loop-dark font-bold">•</span>Foco principal: Auditoría y aseguramiento de estabilidad y seguridad.</li>
             </ul>
         </div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="bg-loop-dark pt-12 pb-8 px-6 text-center">
-        <div class="max-w-4xl mx-auto flex flex-col items-center justify-center">
-            <p class="text-white text-sm mb-2 font-medium">Hecho por Loop Development para ITALTEL</p>
-            <p class="text-gray-400 text-xs mb-6">Todos los derechos reservados</p>
-            
-            <div class="h-px w-24 bg-gray-700 mb-6"></div>
-            
-            <a href="mailto:santiago@loopdev.es" class="text-white hover:text-gray-300 transition-colors text-sm font-medium">santiago@loopdev.es</a>
-            <a href="tel:+34620863923" class="text-gray-400 mt-1 text-sm">620 863 923</a>
-        </div>
+    <footer class="bg-loop-dark pt-12 pb-8 px-6 text-center text-white">
+        <p class="text-sm mb-2 font-medium">Hecho por Loop Development para ITALTEL</p>
+        <p class="text-gray-400 text-xs mb-6">Todos los derechos reservados</p>
+        <div class="h-px w-24 bg-gray-700 mx-auto mb-6"></div>
+        <a href="mailto:santiago@loopdev.es" class="text-white hover:text-gray-300 text-sm font-medium">santiago@loopdev.es</a> | 
+        <a href="tel:+34620863923" class="text-gray-400 text-sm">620 863 923</a>
     </footer>
 
     <!-- AOS Animation Script Init -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-            once: true,
-            offset: 50,
-        });
+        AOS.init({ once: true, offset: 50 });
     </script>
 </body>
 </html>
